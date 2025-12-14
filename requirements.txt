@@ -1,6 +1,10 @@
 ddgs>=4.0.0
-groq==0.4.2
+groq>=0.9.0
 google-generativeai>=0.8.0
 python-dotenv==1.0.0
 requests==2.31.0
 arxiv==1.4.7
+streamlit>=1.28.0
+httpx>=0.24.0
+fastapi>=0.104.0
+uvicorn>=0.24.0

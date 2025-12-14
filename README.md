@@ -16,8 +16,36 @@ A powerful AI-powered search agent that combines DuckDuckGo/Wikipedia with Groq 
 
 ### User-Friendly
 - 💬 **Interactive CLI**: Chat-like interface for queries
+- 🌐 **Web Interface**: Beautiful Streamlit UI (NEW!)
 - 📊 **Formatted Output**: Clean, organized result display
 - ⚡ **Fast Responses**: Groq delivers results in seconds
+
+## Quick Start - Two Ways to Use
+
+### Option 1: Web Interface (Easiest!)
+
+```bash
+streamlit run app.py
+```
+
+Opens beautiful web UI in your browser. Perfect for non-technical users!
+
+**Features:**
+- 🎨 Clean, modern design
+- 📊 Tabbed results display
+- 🔐 Secure API key input
+- 📜 Search history
+- 📱 Responsive layout
+
+See [STREAMLIT_GUIDE.md](STREAMLIT_GUIDE.md) for details.
+
+### Option 2: Command Line (Powerful!)
+
+```bash
+python main.py
+```
+
+Traditional CLI with full control and advanced options.
 
 ## Installation
 
@@ -87,13 +115,27 @@ Or use the setup script:
 
 ## Quick Start
 
-### Method 1: Windows (Easiest)
+### Method 1: Web Interface (Recommended for Most Users)
+
+```bash
+streamlit run app.py
+```
+
+This opens a beautiful web interface in your browser:
+- Visual search interface
+- Tabbed results display
+- Search history
+- No command-line needed!
+
+See [STREAMLIT_GUIDE.md](STREAMLIT_GUIDE.md) for full instructions.
+
+### Method 2: Windows CLI (Quick)
 1. Double-click **`run.bat`**
 2. Paste your Groq API key when prompted
 3. Press Enter to skip Google key (or paste it if you have one)
 4. Type your search query!
 
-### Method 2: Command Line
+### Method 3: Command Line
 
 **Windows:**
 ```bash
@@ -106,7 +148,7 @@ source .venv/bin/activate
 python main.py
 ```
 
-### Method 3: Activate Virtual Environment
+### Method 4: Activate Virtual Environment
 
 **Windows PowerShell:**
 ```bash
